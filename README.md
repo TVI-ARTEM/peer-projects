@@ -1,2 +1,2 @@
-# peer-projects
-Projects completed during the peer review
+# Peer review projects
+These projects were developed within the framework of C # training as a joint assessment assignment.
