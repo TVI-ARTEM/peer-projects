@@ -1,1 +1,0 @@
-Bulls and cows task.
