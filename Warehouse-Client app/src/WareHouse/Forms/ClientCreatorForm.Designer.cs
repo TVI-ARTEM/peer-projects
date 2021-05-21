@@ -1,0 +1,992 @@
+﻿
+namespace WareHouse.Forms
+{
+    partial class ClientCreatorForm
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.components = new System.ComponentModel.Container();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties1 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties2 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties3 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties4 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties5 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties6 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties7 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties8 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties9 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties10 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties11 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties12 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties13 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties14 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties15 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties16 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties17 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties18 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties19 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties20 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties21 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties22 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties23 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties24 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties25 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties26 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties27 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties28 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties29 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties30 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties31 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties32 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuToggleSwitch.ToggleState toggleState1 = new Bunifu.UI.WinForms.BunifuToggleSwitch.ToggleState();
+            Bunifu.UI.WinForms.BunifuToggleSwitch.ToggleState toggleState2 = new Bunifu.UI.WinForms.BunifuToggleSwitch.ToggleState();
+            Bunifu.UI.WinForms.BunifuToggleSwitch.ToggleState toggleState3 = new Bunifu.UI.WinForms.BunifuToggleSwitch.ToggleState();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ClientCreatorForm));
+            this.Elipse = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.FormDock = new Bunifu.UI.WinForms.BunifuFormDock();
+            this.MainPanel = new Bunifu.UI.WinForms.BunifuGradientPanel();
+            this.ExitButton = new System.Windows.Forms.Button();
+            this.ErrorPanel = new System.Windows.Forms.Panel();
+            this.ErrorTextBox = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.SignUpButton = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
+            this.LayoutPanel = new System.Windows.Forms.FlowLayoutPanel();
+            this.EmailTextBox = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.LoginTextBox = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.PasswordTextBox = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.FirstNameTextBox = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.PatronymicTextBox = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.LastNameTextBox = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.PhoneNumberTextBox = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.CityLabel = new Bunifu.UI.WinForms.BunifuLabel();
+            this.CityDropdown = new Bunifu.UI.WinForms.BunifuDropdown();
+            this.WorkerLabel = new Bunifu.UI.WinForms.BunifuLabel();
+            this.WorkerToggleSwitch = new Bunifu.UI.WinForms.BunifuToggleSwitch();
+            this.SignUpLabel = new Bunifu.UI.WinForms.BunifuLabel();
+            this.MainPanel.SuspendLayout();
+            this.ErrorPanel.SuspendLayout();
+            this.LayoutPanel.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // Elipse
+            // 
+            this.Elipse.ElipseRadius = 0;
+            this.Elipse.TargetControl = this;
+            // 
+            // FormDock
+            // 
+            this.FormDock.AllowFormDragging = true;
+            this.FormDock.AllowFormDropShadow = true;
+            this.FormDock.AllowFormResizing = true;
+            this.FormDock.AllowHidingBottomRegion = true;
+            this.FormDock.AllowOpacityChangesWhileDragging = false;
+            this.FormDock.BorderOptions.BottomBorder.BorderColor = System.Drawing.Color.Silver;
+            this.FormDock.BorderOptions.BottomBorder.BorderThickness = 1;
+            this.FormDock.BorderOptions.BottomBorder.ShowBorder = true;
+            this.FormDock.BorderOptions.LeftBorder.BorderColor = System.Drawing.Color.Silver;
+            this.FormDock.BorderOptions.LeftBorder.BorderThickness = 1;
+            this.FormDock.BorderOptions.LeftBorder.ShowBorder = true;
+            this.FormDock.BorderOptions.RightBorder.BorderColor = System.Drawing.Color.Silver;
+            this.FormDock.BorderOptions.RightBorder.BorderThickness = 1;
+            this.FormDock.BorderOptions.RightBorder.ShowBorder = true;
+            this.FormDock.BorderOptions.TopBorder.BorderColor = System.Drawing.Color.Silver;
+            this.FormDock.BorderOptions.TopBorder.BorderThickness = 1;
+            this.FormDock.BorderOptions.TopBorder.ShowBorder = true;
+            this.FormDock.ContainerControl = this;
+            this.FormDock.DockingIndicatorsColor = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(215)))), ((int)(((byte)(233)))));
+            this.FormDock.DockingIndicatorsOpacity = 0.5D;
+            this.FormDock.DockingOptions.DockAll = true;
+            this.FormDock.DockingOptions.DockBottomLeft = true;
+            this.FormDock.DockingOptions.DockBottomRight = true;
+            this.FormDock.DockingOptions.DockFullScreen = true;
+            this.FormDock.DockingOptions.DockLeft = true;
+            this.FormDock.DockingOptions.DockRight = true;
+            this.FormDock.DockingOptions.DockTopLeft = true;
+            this.FormDock.DockingOptions.DockTopRight = true;
+            this.FormDock.FormDraggingOpacity = 0.9D;
+            this.FormDock.ParentForm = this;
+            this.FormDock.ShowCursorChanges = true;
+            this.FormDock.ShowDockingIndicators = true;
+            this.FormDock.TitleBarOptions.AllowFormDragging = true;
+            this.FormDock.TitleBarOptions.BunifuFormDock = this.FormDock;
+            this.FormDock.TitleBarOptions.DoubleClickToExpandWindow = true;
+            this.FormDock.TitleBarOptions.TitleBarControl = null;
+            this.FormDock.TitleBarOptions.UseBackColorOnDockingIndicators = false;
+            // 
+            // MainPanel
+            // 
+            this.MainPanel.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.MainPanel, "MainPanel");
+            this.MainPanel.BorderRadius = 0;
+            this.MainPanel.Controls.Add(this.ExitButton);
+            this.MainPanel.Controls.Add(this.ErrorPanel);
+            this.MainPanel.Controls.Add(this.SignUpButton);
+            this.MainPanel.Controls.Add(this.LayoutPanel);
+            this.MainPanel.Controls.Add(this.SignUpLabel);
+            this.MainPanel.GradientBottomLeft = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(143)))), ((int)(((byte)(166)))));
+            this.MainPanel.GradientBottomRight = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(143)))), ((int)(((byte)(166)))));
+            this.MainPanel.GradientTopLeft = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(246)))), ((int)(((byte)(250)))));
+            this.MainPanel.GradientTopRight = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(246)))), ((int)(((byte)(250)))));
+            this.MainPanel.Name = "MainPanel";
+            this.MainPanel.Quality = 10;
+            // 
+            // ExitButton
+            // 
+            this.ExitButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.ExitButton.FlatAppearance.BorderSize = 0;
+            resources.ApplyResources(this.ExitButton, "ExitButton");
+            this.ExitButton.Image = global::WareHouse.Properties.Resources.exit_button;
+            this.ExitButton.Name = "ExitButton";
+            this.ExitButton.TabStop = false;
+            this.ExitButton.UseVisualStyleBackColor = true;
+            // 
+            // ErrorPanel
+            // 
+            this.ErrorPanel.Controls.Add(this.ErrorTextBox);
+            resources.ApplyResources(this.ErrorPanel, "ErrorPanel");
+            this.ErrorPanel.Name = "ErrorPanel";
+            // 
+            // ErrorTextBox
+            // 
+            this.ErrorTextBox.AcceptsReturn = false;
+            this.ErrorTextBox.AcceptsTab = false;
+            this.ErrorTextBox.AnimationSpeed = 200;
+            this.ErrorTextBox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.ErrorTextBox.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.ErrorTextBox.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.ErrorTextBox, "ErrorTextBox");
+            this.ErrorTextBox.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.ErrorTextBox.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.ErrorTextBox.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.ErrorTextBox.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(76)))), ((int)(((byte)(103)))));
+            this.ErrorTextBox.BorderRadius = 1;
+            this.ErrorTextBox.BorderThickness = 1;
+            this.ErrorTextBox.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.ErrorTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.ErrorTextBox.DefaultFont = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold);
+            this.ErrorTextBox.DefaultText = "";
+            this.ErrorTextBox.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(76)))), ((int)(((byte)(103)))));
+            this.ErrorTextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(246)))), ((int)(((byte)(250)))));
+            this.ErrorTextBox.HideSelection = true;
+            this.ErrorTextBox.IconLeft = global::WareHouse.Properties.Resources.dialog_error_icon;
+            this.ErrorTextBox.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.ErrorTextBox.IconPadding = 10;
+            this.ErrorTextBox.IconRight = null;
+            this.ErrorTextBox.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.ErrorTextBox.Lines = new string[0];
+            this.ErrorTextBox.MaxLength = 32767;
+            this.ErrorTextBox.Modified = false;
+            this.ErrorTextBox.Multiline = true;
+            this.ErrorTextBox.Name = "ErrorTextBox";
+            stateProperties1.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties1.FillColor = System.Drawing.Color.Empty;
+            stateProperties1.ForeColor = System.Drawing.Color.Empty;
+            stateProperties1.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.ErrorTextBox.OnActiveState = stateProperties1;
+            stateProperties2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties2.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.ErrorTextBox.OnDisabledState = stateProperties2;
+            stateProperties3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties3.FillColor = System.Drawing.Color.Empty;
+            stateProperties3.ForeColor = System.Drawing.Color.Empty;
+            stateProperties3.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.ErrorTextBox.OnHoverState = stateProperties3;
+            stateProperties4.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(76)))), ((int)(((byte)(103)))));
+            stateProperties4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(76)))), ((int)(((byte)(103)))));
+            stateProperties4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(246)))), ((int)(((byte)(250)))));
+            stateProperties4.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.ErrorTextBox.OnIdleState = stateProperties4;
+            this.ErrorTextBox.PasswordChar = '\0';
+            this.ErrorTextBox.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(246)))), ((int)(((byte)(250)))));
+            this.ErrorTextBox.PlaceholderText = "Enter text";
+            this.ErrorTextBox.ReadOnly = true;
+            this.ErrorTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Both;
+            this.ErrorTextBox.SelectedText = "";
+            this.ErrorTextBox.SelectionLength = 0;
+            this.ErrorTextBox.SelectionStart = 0;
+            this.ErrorTextBox.ShortcutsEnabled = true;
+            this.ErrorTextBox.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.ErrorTextBox.TabStop = false;
+            this.ErrorTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.ErrorTextBox.TextMarginBottom = 0;
+            this.ErrorTextBox.TextMarginLeft = 3;
+            this.ErrorTextBox.TextMarginTop = 0;
+            this.ErrorTextBox.TextPlaceholder = "Enter text";
+            this.ErrorTextBox.UseSystemPasswordChar = false;
+            this.ErrorTextBox.WordWrap = true;
+            // 
+            // SignUpButton
+            // 
+            this.SignUpButton.AllowAnimations = true;
+            this.SignUpButton.AllowMouseEffects = true;
+            this.SignUpButton.AllowToggling = false;
+            this.SignUpButton.AnimationSpeed = 200;
+            this.SignUpButton.AutoGenerateColors = false;
+            this.SignUpButton.AutoRoundBorders = false;
+            this.SignUpButton.AutoSizeLeftIcon = true;
+            this.SignUpButton.AutoSizeRightIcon = true;
+            this.SignUpButton.BackColor = System.Drawing.Color.Transparent;
+            this.SignUpButton.BackColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(170)))), ((int)(((byte)(242)))));
+            resources.ApplyResources(this.SignUpButton, "SignUpButton");
+            this.SignUpButton.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.SignUpButton.ButtonText = "Sign Up";
+            this.SignUpButton.ButtonTextMarginLeft = 0;
+            this.SignUpButton.ColorContrastOnClick = 45;
+            this.SignUpButton.ColorContrastOnHover = 45;
+            this.SignUpButton.Cursor = System.Windows.Forms.Cursors.Default;
+            borderEdges1.BottomLeft = true;
+            borderEdges1.BottomRight = true;
+            borderEdges1.TopLeft = true;
+            borderEdges1.TopRight = true;
+            this.SignUpButton.CustomizableEdges = borderEdges1;
+            this.SignUpButton.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.SignUpButton.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
+            this.SignUpButton.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.SignUpButton.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.SignUpButton.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
+            this.SignUpButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(246)))), ((int)(((byte)(250)))));
+            this.SignUpButton.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.SignUpButton.IconLeftCursor = System.Windows.Forms.Cursors.Default;
+            this.SignUpButton.IconLeftPadding = new System.Windows.Forms.Padding(11, 3, 3, 3);
+            this.SignUpButton.IconMarginLeft = 11;
+            this.SignUpButton.IconPadding = 10;
+            this.SignUpButton.IconRightAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.SignUpButton.IconRightCursor = System.Windows.Forms.Cursors.Default;
+            this.SignUpButton.IconRightPadding = new System.Windows.Forms.Padding(3, 3, 7, 3);
+            this.SignUpButton.IconSize = 25;
+            this.SignUpButton.IdleBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(152)))), ((int)(((byte)(218)))));
+            this.SignUpButton.IdleBorderRadius = 30;
+            this.SignUpButton.IdleBorderThickness = 2;
+            this.SignUpButton.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(170)))), ((int)(((byte)(242)))));
+            this.SignUpButton.IdleIconLeftImage = null;
+            this.SignUpButton.IdleIconRightImage = null;
+            this.SignUpButton.IndicateFocus = false;
+            this.SignUpButton.Name = "SignUpButton";
+            this.SignUpButton.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
+            this.SignUpButton.OnDisabledState.BorderRadius = 30;
+            this.SignUpButton.OnDisabledState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.SignUpButton.OnDisabledState.BorderThickness = 2;
+            this.SignUpButton.OnDisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.SignUpButton.OnDisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.SignUpButton.OnDisabledState.IconLeftImage = null;
+            this.SignUpButton.OnDisabledState.IconRightImage = null;
+            this.SignUpButton.onHoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.SignUpButton.onHoverState.BorderRadius = 30;
+            this.SignUpButton.onHoverState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.SignUpButton.onHoverState.BorderThickness = 2;
+            this.SignUpButton.onHoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.SignUpButton.onHoverState.ForeColor = System.Drawing.Color.White;
+            this.SignUpButton.onHoverState.IconLeftImage = null;
+            this.SignUpButton.onHoverState.IconRightImage = null;
+            this.SignUpButton.OnIdleState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(152)))), ((int)(((byte)(218)))));
+            this.SignUpButton.OnIdleState.BorderRadius = 30;
+            this.SignUpButton.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.SignUpButton.OnIdleState.BorderThickness = 2;
+            this.SignUpButton.OnIdleState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(170)))), ((int)(((byte)(242)))));
+            this.SignUpButton.OnIdleState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(246)))), ((int)(((byte)(250)))));
+            this.SignUpButton.OnIdleState.IconLeftImage = null;
+            this.SignUpButton.OnIdleState.IconRightImage = null;
+            this.SignUpButton.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            this.SignUpButton.OnPressedState.BorderRadius = 30;
+            this.SignUpButton.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.SignUpButton.OnPressedState.BorderThickness = 2;
+            this.SignUpButton.OnPressedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            this.SignUpButton.OnPressedState.ForeColor = System.Drawing.Color.White;
+            this.SignUpButton.OnPressedState.IconLeftImage = null;
+            this.SignUpButton.OnPressedState.IconRightImage = null;
+            this.SignUpButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.SignUpButton.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
+            this.SignUpButton.TextMarginLeft = 0;
+            this.SignUpButton.TextPadding = new System.Windows.Forms.Padding(0);
+            this.SignUpButton.UseDefaultRadiusAndThickness = true;
+            this.SignUpButton.Click += new System.EventHandler(this.SignUpButton_Click);
+            // 
+            // LayoutPanel
+            // 
+            resources.ApplyResources(this.LayoutPanel, "LayoutPanel");
+            this.LayoutPanel.Controls.Add(this.EmailTextBox);
+            this.LayoutPanel.Controls.Add(this.LoginTextBox);
+            this.LayoutPanel.Controls.Add(this.PasswordTextBox);
+            this.LayoutPanel.Controls.Add(this.FirstNameTextBox);
+            this.LayoutPanel.Controls.Add(this.PatronymicTextBox);
+            this.LayoutPanel.Controls.Add(this.LastNameTextBox);
+            this.LayoutPanel.Controls.Add(this.PhoneNumberTextBox);
+            this.LayoutPanel.Controls.Add(this.CityLabel);
+            this.LayoutPanel.Controls.Add(this.CityDropdown);
+            this.LayoutPanel.Controls.Add(this.WorkerLabel);
+            this.LayoutPanel.Controls.Add(this.WorkerToggleSwitch);
+            this.LayoutPanel.Name = "LayoutPanel";
+            // 
+            // EmailTextBox
+            // 
+            this.EmailTextBox.AcceptsReturn = false;
+            this.EmailTextBox.AcceptsTab = false;
+            this.EmailTextBox.AnimationSpeed = 200;
+            this.EmailTextBox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.EmailTextBox.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.EmailTextBox.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.EmailTextBox, "EmailTextBox");
+            this.EmailTextBox.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.EmailTextBox.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.EmailTextBox.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.EmailTextBox.BorderColorIdle = System.Drawing.Color.Silver;
+            this.EmailTextBox.BorderRadius = 1;
+            this.EmailTextBox.BorderThickness = 1;
+            this.EmailTextBox.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.EmailTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.EmailTextBox.DefaultFont = new System.Drawing.Font("Microsoft Sans Serif", 13F);
+            this.EmailTextBox.DefaultText = "";
+            this.EmailTextBox.FillColor = System.Drawing.Color.White;
+            this.EmailTextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(54)))), ((int)(((byte)(64)))));
+            this.EmailTextBox.HideSelection = true;
+            this.EmailTextBox.IconLeft = global::WareHouse.Properties.Resources.user;
+            this.EmailTextBox.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.EmailTextBox.IconPadding = 10;
+            this.EmailTextBox.IconRight = null;
+            this.EmailTextBox.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.EmailTextBox.Lines = new string[0];
+            this.EmailTextBox.MaxLength = 32767;
+            this.EmailTextBox.Modified = false;
+            this.EmailTextBox.Multiline = false;
+            this.EmailTextBox.Name = "EmailTextBox";
+            stateProperties5.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties5.FillColor = System.Drawing.Color.Empty;
+            stateProperties5.ForeColor = System.Drawing.Color.Empty;
+            stateProperties5.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.EmailTextBox.OnActiveState = stateProperties5;
+            stateProperties6.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties6.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.EmailTextBox.OnDisabledState = stateProperties6;
+            stateProperties7.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties7.FillColor = System.Drawing.Color.Empty;
+            stateProperties7.ForeColor = System.Drawing.Color.Empty;
+            stateProperties7.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.EmailTextBox.OnHoverState = stateProperties7;
+            stateProperties8.BorderColor = System.Drawing.Color.Silver;
+            stateProperties8.FillColor = System.Drawing.Color.White;
+            stateProperties8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(54)))), ((int)(((byte)(64)))));
+            stateProperties8.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.EmailTextBox.OnIdleState = stateProperties8;
+            this.EmailTextBox.PasswordChar = '\0';
+            this.EmailTextBox.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.EmailTextBox.PlaceholderText = "E-mail";
+            this.EmailTextBox.ReadOnly = false;
+            this.EmailTextBox.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.EmailTextBox.SelectedText = "";
+            this.EmailTextBox.SelectionLength = 0;
+            this.EmailTextBox.SelectionStart = 0;
+            this.EmailTextBox.ShortcutsEnabled = true;
+            this.EmailTextBox.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.EmailTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.EmailTextBox.TextMarginBottom = 0;
+            this.EmailTextBox.TextMarginLeft = 10;
+            this.EmailTextBox.TextMarginTop = 0;
+            this.EmailTextBox.TextPlaceholder = "E-mail";
+            this.EmailTextBox.UseSystemPasswordChar = false;
+            this.EmailTextBox.WordWrap = true;
+            // 
+            // LoginTextBox
+            // 
+            this.LoginTextBox.AcceptsReturn = false;
+            this.LoginTextBox.AcceptsTab = false;
+            this.LoginTextBox.AnimationSpeed = 200;
+            this.LoginTextBox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.LoginTextBox.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.LoginTextBox.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.LoginTextBox, "LoginTextBox");
+            this.LoginTextBox.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.LoginTextBox.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.LoginTextBox.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.LoginTextBox.BorderColorIdle = System.Drawing.Color.Silver;
+            this.LoginTextBox.BorderRadius = 1;
+            this.LoginTextBox.BorderThickness = 1;
+            this.LoginTextBox.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.LoginTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.LoginTextBox.DefaultFont = new System.Drawing.Font("Microsoft Sans Serif", 13F);
+            this.LoginTextBox.DefaultText = "";
+            this.LoginTextBox.FillColor = System.Drawing.Color.White;
+            this.LoginTextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(54)))), ((int)(((byte)(64)))));
+            this.LoginTextBox.HideSelection = true;
+            this.LoginTextBox.IconLeft = global::WareHouse.Properties.Resources.user;
+            this.LoginTextBox.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.LoginTextBox.IconPadding = 10;
+            this.LoginTextBox.IconRight = null;
+            this.LoginTextBox.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.LoginTextBox.Lines = new string[0];
+            this.LoginTextBox.MaxLength = 32767;
+            this.LoginTextBox.Modified = false;
+            this.LoginTextBox.Multiline = false;
+            this.LoginTextBox.Name = "LoginTextBox";
+            stateProperties9.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties9.FillColor = System.Drawing.Color.Empty;
+            stateProperties9.ForeColor = System.Drawing.Color.Empty;
+            stateProperties9.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.LoginTextBox.OnActiveState = stateProperties9;
+            stateProperties10.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties10.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties10.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.LoginTextBox.OnDisabledState = stateProperties10;
+            stateProperties11.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties11.FillColor = System.Drawing.Color.Empty;
+            stateProperties11.ForeColor = System.Drawing.Color.Empty;
+            stateProperties11.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.LoginTextBox.OnHoverState = stateProperties11;
+            stateProperties12.BorderColor = System.Drawing.Color.Silver;
+            stateProperties12.FillColor = System.Drawing.Color.White;
+            stateProperties12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(54)))), ((int)(((byte)(64)))));
+            stateProperties12.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.LoginTextBox.OnIdleState = stateProperties12;
+            this.LoginTextBox.PasswordChar = '\0';
+            this.LoginTextBox.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.LoginTextBox.PlaceholderText = "Login";
+            this.LoginTextBox.ReadOnly = false;
+            this.LoginTextBox.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.LoginTextBox.SelectedText = "";
+            this.LoginTextBox.SelectionLength = 0;
+            this.LoginTextBox.SelectionStart = 0;
+            this.LoginTextBox.ShortcutsEnabled = true;
+            this.LoginTextBox.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.LoginTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.LoginTextBox.TextMarginBottom = 0;
+            this.LoginTextBox.TextMarginLeft = 10;
+            this.LoginTextBox.TextMarginTop = 0;
+            this.LoginTextBox.TextPlaceholder = "Login";
+            this.LoginTextBox.UseSystemPasswordChar = false;
+            this.LoginTextBox.WordWrap = true;
+            // 
+            // PasswordTextBox
+            // 
+            this.PasswordTextBox.AcceptsReturn = false;
+            this.PasswordTextBox.AcceptsTab = false;
+            this.PasswordTextBox.AnimationSpeed = 200;
+            this.PasswordTextBox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.PasswordTextBox.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.PasswordTextBox.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.PasswordTextBox, "PasswordTextBox");
+            this.PasswordTextBox.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.PasswordTextBox.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.PasswordTextBox.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.PasswordTextBox.BorderColorIdle = System.Drawing.Color.Silver;
+            this.PasswordTextBox.BorderRadius = 1;
+            this.PasswordTextBox.BorderThickness = 1;
+            this.PasswordTextBox.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.PasswordTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.PasswordTextBox.DefaultFont = new System.Drawing.Font("Microsoft Sans Serif", 13F);
+            this.PasswordTextBox.DefaultText = "";
+            this.PasswordTextBox.FillColor = System.Drawing.Color.White;
+            this.PasswordTextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(54)))), ((int)(((byte)(64)))));
+            this.PasswordTextBox.HideSelection = true;
+            this.PasswordTextBox.IconLeft = global::WareHouse.Properties.Resources.password;
+            this.PasswordTextBox.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.PasswordTextBox.IconPadding = 10;
+            this.PasswordTextBox.IconRight = global::WareHouse.Properties.Resources.Hide_password;
+            this.PasswordTextBox.IconRightCursor = System.Windows.Forms.Cursors.Arrow;
+            this.PasswordTextBox.Lines = new string[0];
+            this.PasswordTextBox.MaxLength = 32767;
+            this.PasswordTextBox.Modified = false;
+            this.PasswordTextBox.Multiline = false;
+            this.PasswordTextBox.Name = "PasswordTextBox";
+            stateProperties13.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties13.FillColor = System.Drawing.Color.Empty;
+            stateProperties13.ForeColor = System.Drawing.Color.Empty;
+            stateProperties13.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.PasswordTextBox.OnActiveState = stateProperties13;
+            stateProperties14.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties14.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties14.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.PasswordTextBox.OnDisabledState = stateProperties14;
+            stateProperties15.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties15.FillColor = System.Drawing.Color.Empty;
+            stateProperties15.ForeColor = System.Drawing.Color.Empty;
+            stateProperties15.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.PasswordTextBox.OnHoverState = stateProperties15;
+            stateProperties16.BorderColor = System.Drawing.Color.Silver;
+            stateProperties16.FillColor = System.Drawing.Color.White;
+            stateProperties16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(54)))), ((int)(((byte)(64)))));
+            stateProperties16.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.PasswordTextBox.OnIdleState = stateProperties16;
+            this.PasswordTextBox.PasswordChar = '\0';
+            this.PasswordTextBox.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.PasswordTextBox.PlaceholderText = "Password";
+            this.PasswordTextBox.ReadOnly = false;
+            this.PasswordTextBox.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.PasswordTextBox.SelectedText = "";
+            this.PasswordTextBox.SelectionLength = 0;
+            this.PasswordTextBox.SelectionStart = 0;
+            this.PasswordTextBox.ShortcutsEnabled = true;
+            this.PasswordTextBox.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.PasswordTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.PasswordTextBox.TextMarginBottom = 0;
+            this.PasswordTextBox.TextMarginLeft = 10;
+            this.PasswordTextBox.TextMarginTop = 0;
+            this.PasswordTextBox.TextPlaceholder = "Password";
+            this.PasswordTextBox.UseSystemPasswordChar = false;
+            this.PasswordTextBox.WordWrap = true;
+            this.PasswordTextBox.OnIconRightClick += new System.EventHandler(this.PasswordTextBox_OnIconRightClick);
+            // 
+            // FirstNameTextBox
+            // 
+            this.FirstNameTextBox.AcceptsReturn = false;
+            this.FirstNameTextBox.AcceptsTab = false;
+            this.FirstNameTextBox.AnimationSpeed = 200;
+            this.FirstNameTextBox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.FirstNameTextBox.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.FirstNameTextBox.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.FirstNameTextBox, "FirstNameTextBox");
+            this.FirstNameTextBox.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.FirstNameTextBox.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.FirstNameTextBox.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.FirstNameTextBox.BorderColorIdle = System.Drawing.Color.Silver;
+            this.FirstNameTextBox.BorderRadius = 1;
+            this.FirstNameTextBox.BorderThickness = 1;
+            this.FirstNameTextBox.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.FirstNameTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.FirstNameTextBox.DefaultFont = new System.Drawing.Font("Microsoft Sans Serif", 13F);
+            this.FirstNameTextBox.DefaultText = "";
+            this.FirstNameTextBox.FillColor = System.Drawing.Color.White;
+            this.FirstNameTextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(54)))), ((int)(((byte)(64)))));
+            this.FirstNameTextBox.HideSelection = true;
+            this.FirstNameTextBox.IconLeft = global::WareHouse.Properties.Resources.user;
+            this.FirstNameTextBox.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.FirstNameTextBox.IconPadding = 10;
+            this.FirstNameTextBox.IconRight = null;
+            this.FirstNameTextBox.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.FirstNameTextBox.Lines = new string[0];
+            this.FirstNameTextBox.MaxLength = 32767;
+            this.FirstNameTextBox.Modified = false;
+            this.FirstNameTextBox.Multiline = false;
+            this.FirstNameTextBox.Name = "FirstNameTextBox";
+            stateProperties17.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties17.FillColor = System.Drawing.Color.Empty;
+            stateProperties17.ForeColor = System.Drawing.Color.Empty;
+            stateProperties17.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.FirstNameTextBox.OnActiveState = stateProperties17;
+            stateProperties18.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties18.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties18.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.FirstNameTextBox.OnDisabledState = stateProperties18;
+            stateProperties19.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties19.FillColor = System.Drawing.Color.Empty;
+            stateProperties19.ForeColor = System.Drawing.Color.Empty;
+            stateProperties19.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.FirstNameTextBox.OnHoverState = stateProperties19;
+            stateProperties20.BorderColor = System.Drawing.Color.Silver;
+            stateProperties20.FillColor = System.Drawing.Color.White;
+            stateProperties20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(54)))), ((int)(((byte)(64)))));
+            stateProperties20.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.FirstNameTextBox.OnIdleState = stateProperties20;
+            this.FirstNameTextBox.PasswordChar = '\0';
+            this.FirstNameTextBox.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.FirstNameTextBox.PlaceholderText = "Name";
+            this.FirstNameTextBox.ReadOnly = false;
+            this.FirstNameTextBox.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.FirstNameTextBox.SelectedText = "";
+            this.FirstNameTextBox.SelectionLength = 0;
+            this.FirstNameTextBox.SelectionStart = 0;
+            this.FirstNameTextBox.ShortcutsEnabled = true;
+            this.FirstNameTextBox.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.FirstNameTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.FirstNameTextBox.TextMarginBottom = 0;
+            this.FirstNameTextBox.TextMarginLeft = 10;
+            this.FirstNameTextBox.TextMarginTop = 0;
+            this.FirstNameTextBox.TextPlaceholder = "Name";
+            this.FirstNameTextBox.UseSystemPasswordChar = false;
+            this.FirstNameTextBox.WordWrap = true;
+            // 
+            // PatronymicTextBox
+            // 
+            this.PatronymicTextBox.AcceptsReturn = false;
+            this.PatronymicTextBox.AcceptsTab = false;
+            this.PatronymicTextBox.AnimationSpeed = 200;
+            this.PatronymicTextBox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.PatronymicTextBox.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.PatronymicTextBox.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.PatronymicTextBox, "PatronymicTextBox");
+            this.PatronymicTextBox.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.PatronymicTextBox.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.PatronymicTextBox.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.PatronymicTextBox.BorderColorIdle = System.Drawing.Color.Silver;
+            this.PatronymicTextBox.BorderRadius = 1;
+            this.PatronymicTextBox.BorderThickness = 1;
+            this.PatronymicTextBox.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.PatronymicTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.PatronymicTextBox.DefaultFont = new System.Drawing.Font("Microsoft Sans Serif", 13F);
+            this.PatronymicTextBox.DefaultText = "";
+            this.PatronymicTextBox.FillColor = System.Drawing.Color.White;
+            this.PatronymicTextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(54)))), ((int)(((byte)(64)))));
+            this.PatronymicTextBox.HideSelection = true;
+            this.PatronymicTextBox.IconLeft = global::WareHouse.Properties.Resources.user;
+            this.PatronymicTextBox.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.PatronymicTextBox.IconPadding = 10;
+            this.PatronymicTextBox.IconRight = null;
+            this.PatronymicTextBox.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.PatronymicTextBox.Lines = new string[0];
+            this.PatronymicTextBox.MaxLength = 32767;
+            this.PatronymicTextBox.Modified = false;
+            this.PatronymicTextBox.Multiline = false;
+            this.PatronymicTextBox.Name = "PatronymicTextBox";
+            stateProperties21.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties21.FillColor = System.Drawing.Color.Empty;
+            stateProperties21.ForeColor = System.Drawing.Color.Empty;
+            stateProperties21.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.PatronymicTextBox.OnActiveState = stateProperties21;
+            stateProperties22.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties22.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties22.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.PatronymicTextBox.OnDisabledState = stateProperties22;
+            stateProperties23.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties23.FillColor = System.Drawing.Color.Empty;
+            stateProperties23.ForeColor = System.Drawing.Color.Empty;
+            stateProperties23.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.PatronymicTextBox.OnHoverState = stateProperties23;
+            stateProperties24.BorderColor = System.Drawing.Color.Silver;
+            stateProperties24.FillColor = System.Drawing.Color.White;
+            stateProperties24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(54)))), ((int)(((byte)(64)))));
+            stateProperties24.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.PatronymicTextBox.OnIdleState = stateProperties24;
+            this.PatronymicTextBox.PasswordChar = '\0';
+            this.PatronymicTextBox.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.PatronymicTextBox.PlaceholderText = "Patronymic";
+            this.PatronymicTextBox.ReadOnly = false;
+            this.PatronymicTextBox.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.PatronymicTextBox.SelectedText = "";
+            this.PatronymicTextBox.SelectionLength = 0;
+            this.PatronymicTextBox.SelectionStart = 0;
+            this.PatronymicTextBox.ShortcutsEnabled = true;
+            this.PatronymicTextBox.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.PatronymicTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.PatronymicTextBox.TextMarginBottom = 0;
+            this.PatronymicTextBox.TextMarginLeft = 10;
+            this.PatronymicTextBox.TextMarginTop = 0;
+            this.PatronymicTextBox.TextPlaceholder = "Patronymic";
+            this.PatronymicTextBox.UseSystemPasswordChar = false;
+            this.PatronymicTextBox.WordWrap = true;
+            // 
+            // LastNameTextBox
+            // 
+            this.LastNameTextBox.AcceptsReturn = false;
+            this.LastNameTextBox.AcceptsTab = false;
+            this.LastNameTextBox.AnimationSpeed = 200;
+            this.LastNameTextBox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.LastNameTextBox.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.LastNameTextBox.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.LastNameTextBox, "LastNameTextBox");
+            this.LastNameTextBox.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.LastNameTextBox.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.LastNameTextBox.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.LastNameTextBox.BorderColorIdle = System.Drawing.Color.Silver;
+            this.LastNameTextBox.BorderRadius = 1;
+            this.LastNameTextBox.BorderThickness = 1;
+            this.LastNameTextBox.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.LastNameTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.LastNameTextBox.DefaultFont = new System.Drawing.Font("Microsoft Sans Serif", 13F);
+            this.LastNameTextBox.DefaultText = "";
+            this.LastNameTextBox.FillColor = System.Drawing.Color.White;
+            this.LastNameTextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(54)))), ((int)(((byte)(64)))));
+            this.LastNameTextBox.HideSelection = true;
+            this.LastNameTextBox.IconLeft = global::WareHouse.Properties.Resources.user;
+            this.LastNameTextBox.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.LastNameTextBox.IconPadding = 10;
+            this.LastNameTextBox.IconRight = null;
+            this.LastNameTextBox.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.LastNameTextBox.Lines = new string[0];
+            this.LastNameTextBox.MaxLength = 32767;
+            this.LastNameTextBox.Modified = false;
+            this.LastNameTextBox.Multiline = false;
+            this.LastNameTextBox.Name = "LastNameTextBox";
+            stateProperties25.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties25.FillColor = System.Drawing.Color.Empty;
+            stateProperties25.ForeColor = System.Drawing.Color.Empty;
+            stateProperties25.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.LastNameTextBox.OnActiveState = stateProperties25;
+            stateProperties26.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties26.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties26.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.LastNameTextBox.OnDisabledState = stateProperties26;
+            stateProperties27.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties27.FillColor = System.Drawing.Color.Empty;
+            stateProperties27.ForeColor = System.Drawing.Color.Empty;
+            stateProperties27.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.LastNameTextBox.OnHoverState = stateProperties27;
+            stateProperties28.BorderColor = System.Drawing.Color.Silver;
+            stateProperties28.FillColor = System.Drawing.Color.White;
+            stateProperties28.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(54)))), ((int)(((byte)(64)))));
+            stateProperties28.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.LastNameTextBox.OnIdleState = stateProperties28;
+            this.LastNameTextBox.PasswordChar = '\0';
+            this.LastNameTextBox.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.LastNameTextBox.PlaceholderText = "Last Name";
+            this.LastNameTextBox.ReadOnly = false;
+            this.LastNameTextBox.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.LastNameTextBox.SelectedText = "";
+            this.LastNameTextBox.SelectionLength = 0;
+            this.LastNameTextBox.SelectionStart = 0;
+            this.LastNameTextBox.ShortcutsEnabled = true;
+            this.LastNameTextBox.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.LastNameTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.LastNameTextBox.TextMarginBottom = 0;
+            this.LastNameTextBox.TextMarginLeft = 10;
+            this.LastNameTextBox.TextMarginTop = 0;
+            this.LastNameTextBox.TextPlaceholder = "Last Name";
+            this.LastNameTextBox.UseSystemPasswordChar = false;
+            this.LastNameTextBox.WordWrap = true;
+            // 
+            // PhoneNumberTextBox
+            // 
+            this.PhoneNumberTextBox.AcceptsReturn = false;
+            this.PhoneNumberTextBox.AcceptsTab = false;
+            this.PhoneNumberTextBox.AnimationSpeed = 200;
+            this.PhoneNumberTextBox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.PhoneNumberTextBox.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.PhoneNumberTextBox.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.PhoneNumberTextBox, "PhoneNumberTextBox");
+            this.PhoneNumberTextBox.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.PhoneNumberTextBox.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.PhoneNumberTextBox.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.PhoneNumberTextBox.BorderColorIdle = System.Drawing.Color.Silver;
+            this.PhoneNumberTextBox.BorderRadius = 1;
+            this.PhoneNumberTextBox.BorderThickness = 1;
+            this.PhoneNumberTextBox.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.PhoneNumberTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.PhoneNumberTextBox.DefaultFont = new System.Drawing.Font("Microsoft Sans Serif", 13F);
+            this.PhoneNumberTextBox.DefaultText = "";
+            this.PhoneNumberTextBox.FillColor = System.Drawing.Color.White;
+            this.PhoneNumberTextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(54)))), ((int)(((byte)(64)))));
+            this.PhoneNumberTextBox.HideSelection = true;
+            this.PhoneNumberTextBox.IconLeft = global::WareHouse.Properties.Resources.phone_icon;
+            this.PhoneNumberTextBox.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.PhoneNumberTextBox.IconPadding = 10;
+            this.PhoneNumberTextBox.IconRight = null;
+            this.PhoneNumberTextBox.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.PhoneNumberTextBox.Lines = new string[0];
+            this.PhoneNumberTextBox.MaxLength = 32767;
+            this.PhoneNumberTextBox.Modified = false;
+            this.PhoneNumberTextBox.Multiline = false;
+            this.PhoneNumberTextBox.Name = "PhoneNumberTextBox";
+            stateProperties29.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties29.FillColor = System.Drawing.Color.Empty;
+            stateProperties29.ForeColor = System.Drawing.Color.Empty;
+            stateProperties29.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.PhoneNumberTextBox.OnActiveState = stateProperties29;
+            stateProperties30.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties30.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties30.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties30.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.PhoneNumberTextBox.OnDisabledState = stateProperties30;
+            stateProperties31.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties31.FillColor = System.Drawing.Color.Empty;
+            stateProperties31.ForeColor = System.Drawing.Color.Empty;
+            stateProperties31.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.PhoneNumberTextBox.OnHoverState = stateProperties31;
+            stateProperties32.BorderColor = System.Drawing.Color.Silver;
+            stateProperties32.FillColor = System.Drawing.Color.White;
+            stateProperties32.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(54)))), ((int)(((byte)(64)))));
+            stateProperties32.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.PhoneNumberTextBox.OnIdleState = stateProperties32;
+            this.PhoneNumberTextBox.PasswordChar = '\0';
+            this.PhoneNumberTextBox.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.PhoneNumberTextBox.PlaceholderText = "Phone Number";
+            this.PhoneNumberTextBox.ReadOnly = false;
+            this.PhoneNumberTextBox.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.PhoneNumberTextBox.SelectedText = "";
+            this.PhoneNumberTextBox.SelectionLength = 0;
+            this.PhoneNumberTextBox.SelectionStart = 0;
+            this.PhoneNumberTextBox.ShortcutsEnabled = true;
+            this.PhoneNumberTextBox.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.PhoneNumberTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.PhoneNumberTextBox.TextMarginBottom = 0;
+            this.PhoneNumberTextBox.TextMarginLeft = 10;
+            this.PhoneNumberTextBox.TextMarginTop = 0;
+            this.PhoneNumberTextBox.TextPlaceholder = "Phone Number";
+            this.PhoneNumberTextBox.UseSystemPasswordChar = false;
+            this.PhoneNumberTextBox.WordWrap = true;
+            this.PhoneNumberTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.PhoneNumberTextBox_KeyPress);
+            // 
+            // CityLabel
+            // 
+            this.CityLabel.AllowParentOverrides = false;
+            this.CityLabel.AutoEllipsis = false;
+            this.CityLabel.CursorType = null;
+            resources.ApplyResources(this.CityLabel, "CityLabel");
+            this.CityLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(59)))), ((int)(((byte)(72)))));
+            this.CityLabel.Name = "CityLabel";
+            this.CityLabel.TabStop = false;
+            this.CityLabel.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.CityLabel.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // CityDropdown
+            // 
+            this.CityDropdown.BackColor = System.Drawing.Color.Transparent;
+            this.CityDropdown.BackgroundColor = System.Drawing.Color.White;
+            this.CityDropdown.BorderColor = System.Drawing.Color.Silver;
+            this.CityDropdown.BorderRadius = 1;
+            this.CityDropdown.Color = System.Drawing.Color.Silver;
+            this.CityDropdown.Direction = Bunifu.UI.WinForms.BunifuDropdown.Directions.Down;
+            this.CityDropdown.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.CityDropdown.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.CityDropdown.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.CityDropdown.DisabledForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.CityDropdown.DisabledIndicatorColor = System.Drawing.Color.DarkGray;
+            this.CityDropdown.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.CityDropdown.DropdownBorderThickness = Bunifu.UI.WinForms.BunifuDropdown.BorderThickness.Thin;
+            this.CityDropdown.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.CityDropdown.DropDownTextAlign = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
+            this.CityDropdown.FillDropDown = true;
+            this.CityDropdown.FillIndicator = false;
+            resources.ApplyResources(this.CityDropdown, "CityDropdown");
+            this.CityDropdown.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(54)))), ((int)(((byte)(64)))));
+            this.CityDropdown.FormattingEnabled = true;
+            this.CityDropdown.Icon = null;
+            this.CityDropdown.IndicatorAlignment = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
+            this.CityDropdown.IndicatorColor = System.Drawing.Color.Gray;
+            this.CityDropdown.IndicatorLocation = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
+            this.CityDropdown.ItemBackColor = System.Drawing.Color.White;
+            this.CityDropdown.ItemBorderColor = System.Drawing.Color.White;
+            this.CityDropdown.ItemForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(54)))), ((int)(((byte)(64)))));
+            this.CityDropdown.ItemHighLightColor = System.Drawing.Color.DodgerBlue;
+            this.CityDropdown.ItemHighLightForeColor = System.Drawing.Color.White;
+            this.CityDropdown.ItemTopMargin = 3;
+            this.CityDropdown.Name = "CityDropdown";
+            this.CityDropdown.TabStop = false;
+            this.CityDropdown.TextAlignment = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
+            this.CityDropdown.TextLeftMargin = 5;
+            // 
+            // WorkerLabel
+            // 
+            this.WorkerLabel.AllowParentOverrides = false;
+            this.WorkerLabel.AutoEllipsis = false;
+            this.WorkerLabel.CursorType = null;
+            resources.ApplyResources(this.WorkerLabel, "WorkerLabel");
+            this.WorkerLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(59)))), ((int)(((byte)(72)))));
+            this.WorkerLabel.Name = "WorkerLabel";
+            this.WorkerLabel.TabStop = false;
+            this.WorkerLabel.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.WorkerLabel.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // WorkerToggleSwitch
+            // 
+            this.WorkerToggleSwitch.Animation = 5;
+            this.WorkerToggleSwitch.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.WorkerToggleSwitch, "WorkerToggleSwitch");
+            this.WorkerToggleSwitch.Checked = false;
+            this.WorkerToggleSwitch.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.WorkerToggleSwitch.InnerCirclePadding = 3;
+            this.WorkerToggleSwitch.Name = "WorkerToggleSwitch";
+            this.WorkerToggleSwitch.TabStop = false;
+            this.WorkerToggleSwitch.ThumbMargin = 3;
+            toggleState1.BackColor = System.Drawing.Color.DarkGray;
+            toggleState1.BackColorInner = System.Drawing.Color.White;
+            toggleState1.BorderColor = System.Drawing.Color.DarkGray;
+            toggleState1.BorderColorInner = System.Drawing.Color.White;
+            toggleState1.BorderRadius = 17;
+            toggleState1.BorderRadiusInner = 11;
+            toggleState1.BorderThickness = 1;
+            toggleState1.BorderThicknessInner = 1;
+            this.WorkerToggleSwitch.ToggleStateDisabled = toggleState1;
+            toggleState2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
+            toggleState2.BackColorInner = System.Drawing.Color.White;
+            toggleState2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
+            toggleState2.BorderColorInner = System.Drawing.Color.White;
+            toggleState2.BorderRadius = 17;
+            toggleState2.BorderRadiusInner = 11;
+            toggleState2.BorderThickness = 1;
+            toggleState2.BorderThicknessInner = 1;
+            this.WorkerToggleSwitch.ToggleStateOff = toggleState2;
+            toggleState3.BackColor = System.Drawing.Color.DodgerBlue;
+            toggleState3.BackColorInner = System.Drawing.Color.White;
+            toggleState3.BorderColor = System.Drawing.Color.DodgerBlue;
+            toggleState3.BorderColorInner = System.Drawing.Color.White;
+            toggleState3.BorderRadius = 17;
+            toggleState3.BorderRadiusInner = 11;
+            toggleState3.BorderThickness = 1;
+            toggleState3.BorderThicknessInner = 1;
+            this.WorkerToggleSwitch.ToggleStateOn = toggleState3;
+            this.WorkerToggleSwitch.Value = false;
+            // 
+            // SignUpLabel
+            // 
+            this.SignUpLabel.AllowParentOverrides = false;
+            this.SignUpLabel.AutoEllipsis = false;
+            this.SignUpLabel.CursorType = null;
+            resources.ApplyResources(this.SignUpLabel, "SignUpLabel");
+            this.SignUpLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(59)))), ((int)(((byte)(72)))));
+            this.SignUpLabel.Name = "SignUpLabel";
+            this.SignUpLabel.TabStop = false;
+            this.SignUpLabel.TextAlignment = System.Drawing.ContentAlignment.TopCenter;
+            this.SignUpLabel.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // ClientCreatorForm
+            // 
+            resources.ApplyResources(this, "$this");
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.MainPanel);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "ClientCreatorForm";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ClientCreatorForm_FormClosing);
+            this.Load += new System.EventHandler(this.ClientCreatorForm_Load);
+            this.MainPanel.ResumeLayout(false);
+            this.MainPanel.PerformLayout();
+            this.ErrorPanel.ResumeLayout(false);
+            this.LayoutPanel.ResumeLayout(false);
+            this.LayoutPanel.PerformLayout();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private Bunifu.Framework.UI.BunifuElipse Elipse;
+        private Bunifu.UI.WinForms.BunifuFormDock FormDock;
+        private Bunifu.UI.WinForms.BunifuGradientPanel MainPanel;
+        private Bunifu.UI.WinForms.BunifuLabel SignUpLabel;
+        private System.Windows.Forms.FlowLayoutPanel LayoutPanel;
+        private Bunifu.UI.WinForms.BunifuTextBox EmailTextBox;
+        private Bunifu.UI.WinForms.BunifuTextBox LoginTextBox;
+        private Bunifu.UI.WinForms.BunifuTextBox FirstNameTextBox;
+        private Bunifu.UI.WinForms.BunifuTextBox PatronymicTextBox;
+        private Bunifu.UI.WinForms.BunifuTextBox LastNameTextBox;
+        private Bunifu.UI.WinForms.BunifuTextBox PhoneNumberTextBox;
+        private Bunifu.UI.WinForms.BunifuTextBox PasswordTextBox;
+        private Bunifu.UI.WinForms.BunifuButton.BunifuButton SignUpButton;
+        private Bunifu.UI.WinForms.BunifuLabel WorkerLabel;
+        private Bunifu.UI.WinForms.BunifuToggleSwitch WorkerToggleSwitch;
+        private System.Windows.Forms.Panel ErrorPanel;
+        private Bunifu.UI.WinForms.BunifuTextBox ErrorTextBox;
+        private System.Windows.Forms.Button ExitButton;
+        private Bunifu.UI.WinForms.BunifuLabel CityLabel;
+        private Bunifu.UI.WinForms.BunifuDropdown CityDropdown;
+    }
+}
