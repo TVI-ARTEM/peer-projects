@@ -1,0 +1,2 @@
+1. Completed all mandatory and additional. functional, instead of using JSON, a local database was used, interaction with which is carried out through the Entity Framework library
+2. All interactions are best done through Swagger
